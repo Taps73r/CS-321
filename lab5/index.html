@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="../lab5/style.css" rel="stylesheet" type="text/css">
+    <link href="../lab5/buttons.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model form</title>
+</head>
+
+<body>
+    <div class="conteinar">
+        <div class="head">
+            <p class="text-h">
+                Мережевий комутаторa
+            </p>
+            <div class="btn-grid">
+                <input class="button" value="X" type="button">
+            </div>
+        </div>
+        <div class="center">
+            <p class="text-p">
+                Модель комутатор:
+            </p>
+            <input class="text-field" placeholder="Введіть модель комутатора" type="text">
+            <p class="text-p">
+                Кількість портів SRP:
+            </p>
+            <input class="text-field" placeholder="Введіть кількість портів SRP" type="text">
+            <p class="text-p">
+                Тип комутатора:
+            </p>
+            <select class="select-t">
+                <option class="text-field" value="1">Некерований</option>
+                <option class="text-field" value="2">Керований L2</option>
+                <option class="text-field" value="3">Керований L3(L2+)</option>
+            </select>
+            <div class="photo">
+                <img src="#">
+            </div>
+            <p class="text-p" style="padding-bottom: 10px;">
+                Виберіть файл зображення:
+            </p>
+            <input class="file" type="file" accept=".jpeg, .jpg, .png">
+            <input type="button" value="Підтвердити" class="buttonedit">
+        </div>
+    </div>
+</body>
+
+</html>
